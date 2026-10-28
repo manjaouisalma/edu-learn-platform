@@ -5,27 +5,12 @@
 **Plateforme e-learning multi-rôles développée avec Laravel 12 : cours, quiz, examens en ligne et certificats PDF.**
 
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 ![Blade](https://img.shields.io/badge/Blade-Templates-F9322C)
 
 </div>
-
----
-
-## 📑 Table des matières
-
-- [Présentation](#-présentation)
-- [Fonctionnalités](#-fonctionnalités)
-- [Aperçu de l'application](#-aperçu-de-lapplication)
-- [Technologies utilisées](#-technologies-utilisées)
-- [Architecture](#-architecture)
-- [Structure du projet](#-structure-du-projet)
-- [Installation](#-installation)
-- [Comptes de démonstration](#-comptes-de-démonstration)
-- [Compétences acquises](#-compétences-acquises)
-- [Auteur](#-auteur)
 
 ---
 
@@ -76,19 +61,19 @@ Chaque type d'utilisateur dispose d'un **espace dédié** avec des fonctionnalit
 
 ### 👨‍💼 Espace Administrateur
 
-| Tableau de bord | Gestion des professeurs |
+| Tableau de bord | All users |
 |:---:|:---:|
-| <img src="docs/screenshots/admin-dashboard.png" width="400"> |
+| <img src="docs/screenshots/admin-dashboard.png" width="400"> |<img src="docs/screenshots/admin-users.png" width="400">
 
 | Gestion des cours |
 |:---:|
-| <img src="docs/screenshots/admin-cours.png" width="400"> |<img src="docs/screenshots/admin-users.png" width="400">
+| <img src="docs/screenshots/admin-cours.png" width="400"> |
 
 ### 👩‍🏫 Espace Professeur
 
 | Tableau de bord | Création de quiz |
 |:---:|:---:|
-| <img src="docs/screenshots/professeur-dashboard.png" width="400"> | <img src="docs/screenshots/professeur-quiz.png" width="400"> |
+| <img src="docs/screenshots/professeur-dashboard.png" width="400"> | <img src="docs/screenshots/quiz-prof.png" width="400"> |
 
 | Gestion des étudiants |
 |:---:|
@@ -102,7 +87,7 @@ Chaque type d'utilisateur dispose d'un **espace dédié** avec des fonctionnalit
 
 | Passage d'un examen | Certificat PDF |
 |:---:|:---:|
-| <img src="docs/screenshots/11-etudiant-examen.png" width="400"> | <img src="docs/screenshots/etudiant-certificat.png" width="400"> |
+| <img src="docs/screenshots/etudiant-examen.png" width="400"> | <img src="docs/screenshots/etudiant-certificat.png" width="400"> |
 
 ---
 
@@ -117,7 +102,6 @@ Chaque type d'utilisateur dispose d'un **espace dédié** avec des fonctionnalit
 | **MySQL** | Base de données relationnelle |
 | **Laravel DomPDF** | Génération des certificats PDF |
 | **Composer / npm** | Gestion des dépendances |
-| **Vite** | Compilation des ressources front-end |
 
 ---
 
